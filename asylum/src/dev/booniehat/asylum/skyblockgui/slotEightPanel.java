@@ -77,11 +77,8 @@ public class slotEightPanel implements Listener {
 			ItemStack stack = iterator.next();
 			if (stack.getItemMeta().hasDisplayName()) {
 				switch(stack.getItemMeta().getDisplayName()) {
-					case "§e§lASYLUM MENU":
-						iterator.remove();
-						break;
-					default:
-						break;
+					case "§e§lASYLUM MENU": iterator.remove(); break;
+					default: break;
 				}
 			}
 		}
