@@ -25,10 +25,7 @@ public class Main extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 		saveDefaultConfig(); // save default config to server
-		startBroadcastTimer(getServer().getScheduler());
-		
 		new versionCommand(this);
-		//new publicServerBroadcast(this);
 		new slotEightPanel(this);
 		new inventoryMenu(this);
 		new joinQuitEvent(this);

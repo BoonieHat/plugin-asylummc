@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/asylum.iml" filepath="$PROJECT_DIR$/asylum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../asylumpluginbroadcast/asylumbroadcast/asylum.iml" filepath="$PROJECT_DIR$/../../asylumpluginbroadcast/asylumbroadcast/asylum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../asylumpluginbroadcast/asylumbroadcast/asylumbroadcast.iml" filepath="$PROJECT_DIR$/../../asylumpluginbroadcast/asylumbroadcast/asylumbroadcast.iml" />
     </modules>
   </component>
 </project>

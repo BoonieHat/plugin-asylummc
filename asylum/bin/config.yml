@@ -1,0 +1,28 @@
+broadcast-random: false # does not work yet
+broadcast-enable: true
+broadcast-interval: 12000 # 12000 ticks default 10 minutes
+broadcasts:
+  help:
+    messages:
+      - '&e&lASYLUM : &7Find the main commands with &a/help'
+  islandcreate:
+    messages:
+      - '&e&lASYLUM : &7To create an island type &a/island create [name]'
+  islandpanel:
+    messages:
+      - '&e&lASYLUM : &7Access your island panel by clicking the menu on the right side of your hotbar.'
+  islandleave:
+    messages:
+      - '&e&lASYLUM : &7To leave your current island type &e/island leave &7(Cannot be island leader)'
+  islanddisband:
+    messages:
+      - '&e&lASYLUM : &7To delete your island type &c/island disband &7(Must be island leader)'
+  islandtop:
+    messages:
+      - '&e&lASYLUM : &7Check the island leaderboards with &a/island top'
+  vote:
+    messages:
+      - '&e&lASYLUM : &7Grab your daily rewards at &a/daily'
+  store:
+    messages:
+      - '&7Checkout our store at &bwww.buy.asylum-minecraft.com/'
